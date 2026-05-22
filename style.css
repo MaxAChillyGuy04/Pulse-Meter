@@ -1,0 +1,55 @@
+:root {
+  --tint: #ffffff;
+}
+
+.design-1,
+.design-1 * {
+  box-sizing: border-box;
+}
+.design-1 {
+  width: 286px;
+  height: 92px;
+  position: relative;
+}
+.main-container {
+  width: 240px;
+  height: 80px;
+  position: absolute;
+  left: 4px;
+  top: 6px;
+  overflow: visible;
+}
+.color-indi {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 198px;
+  top: 6px;
+  overflow: visible;
+}
+.heart {
+  border-radius: 0px;
+  width: 36px;
+  height: 31px;
+  position: absolute;
+  left: 20px;
+  top: 31px;
+  overflow: visible;
+  aspect-ratio: 36/31;
+}
+.value-text {
+  color: var(--tint, #ffffff);
+  text-align: left;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 52px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 63px);
+  top: 50%;
+  translate: 0 -50%;
+  width: 106px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
