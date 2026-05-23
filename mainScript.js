@@ -1,4 +1,4 @@
-import PulsoidSocket from '@pulsoid/socket';
+import PulsoidSocket from './node_module/@pulsoid/socket/src/PulsoidSocket.ts';
 
 const socket = PulsoidSocket.create('77ccc9d3-3a67-485b-a8bb-34095c2ad8f6');
 
