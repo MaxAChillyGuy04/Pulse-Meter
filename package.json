@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@pulsoid/socket": "^3.0.0"
+  }
+}
