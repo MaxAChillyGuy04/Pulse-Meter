@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "@pulsoid/socket": "^3.0.0"
-  }
+  },
+  "name": "pulse-meter",
+  "version": "1.0.0",
+  "description": "for later :)",
+  "main": "mainScript.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxAChillyGuy04/Pulse-Meter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/MaxAChillyGuy04/Pulse-Meter/issues"
+  },
+  "homepage": "https://github.com/MaxAChillyGuy04/Pulse-Meter#readme"
 }
